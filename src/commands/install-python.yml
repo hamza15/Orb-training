@@ -1,0 +1,15 @@
+description: >
+  Install python dependencies from a file.
+parameters:
+  from-file:
+    type: 
+    default: "requirements.txt"
+    description: Name of install file.
+  pkg-manager:
+    type: string
+    default: "pip"
+    description:  Which package management tool to use.
+steps:
+  - run:
+      name: Installing Packages
+      command: "<< parameters.pkg-manager >> install -r << parameters.from-file >>"
