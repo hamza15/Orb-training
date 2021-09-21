@@ -7,8 +7,6 @@
 A starter template for orb projects. Build, test, and publish orbs automatically on CircleCI with [Orb-Tools](https://circleci.com/orbs/registry/orb/circleci/orb-tools).
 
 
-
-
 ## Resources
 
 [CircleCI Orb Registry Page](https://circleci.com/orbs/registry/orb/hamza-runner-ns/orb-training) - The official registry page of this orb for all versions, executors, commands, and jobs described.
